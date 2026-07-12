@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Preethi K — Software Test Engineer</title>
+<meta name="description" content="Preethi K — Software Test Engineer specializing in Manual & Automation Testing, Playwright, API & SQL validation.">
+<link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg">
+<link rel="stylesheet" href="style.css">
+<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+</head>
+<body>
+
+<div id="preloader">
+  <div class="pl-aurora"><span></span><span></span><span></span></div>
+  <div class="pl-particles" id="plParticles"></div>
+  <div class="pl-glowspot pl-glowspot-a"></div>
+  <div class="pl-glowspot pl-glowspot-b"></div>
+
+  <div class="pl-content">
+    <div class="pl-logo-wrap">
+      <svg class="pl-ring" viewBox="0 0 120 120">
+        <circle class="pl-ring-track" cx="60" cy="60" r="52"></circle>
+        <circle class="pl-ring-fill" id="plRingFill" cx="60" cy="60" r="52"></circle>
+      </svg>
+      <div class="pl-logo">PK</div>
+    </div>
+    <div class="pl-loading-text">Loading Portfolio<span class="pl-dots"><span>.</span><span>.</span><span>.</span></span></div>
+    <div class="pl-progress"><div class="pl-progress-fill" id="plProgressFill"></div></div>
+    <div class="pl-percent"><span id="plPercent">0</span>%</div>
+    <div class="pl-subtext">Preparing Experience...</div>
+  </div>
+</div>
+
+<div id="progress"></div>
+<div id="cursor-glow"></div>
+<div class="aurora"><span></span><span></span><span></span></div>
+<div class="particles" id="particles"></div>
+
+<nav>
+  <div class="logo">Preethi<span>K.</span></div>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#expertise">Expertise</a></li>
+    <li><a href="#process">Process</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <button class="burger" id="burger"><i data-lucide="menu"></i></button>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-text" id="heroText">
+    <div class="eyebrow" id="heroEyebrow"><span class="dot"></span> Available for new opportunities</div>
+    <h1 id="heroName">Hi, I'm <span class="grad">Preethi K</span></h1>
+    <div class="role-line" id="heroRoleLine">I am a <span id="typed"></span></div>
+    <p class="desc" id="heroDesc">Detail-oriented Software Test Engineer with 3+ years of experience in Manual Testing and Automation Testing. Passionate about delivering high-quality software through functional, integration, regression, UAT and automation testing.</p>
+    <div class="hero-contacts" id="heroContacts">
+      <a class="item" href="tel:9789989789"><i data-lucide="phone"></i> 9789989789</a>
+      <a class="item" href="mailto:preethivairu05@gmail.com"><i data-lucide="mail"></i> preethivairu05@gmail.com</a>
+      <a class="item" href="https://www.google.com/maps/search/?api=1&query=Pallikaranai,+Chennai" target="_blank" rel="noopener"><i data-lucide="map-pin"></i> Pallikaranai, Chennai</a>
+    </div>
+    <div class="hero-buttons" id="heroButtons">
+      <a href="assets/resume.pdf" download="Preethi_K_Resume.pdf" class="btn btn-primary"><i data-lucide="download"></i> Download Resume</a>
+      <a href="#contact" class="btn btn-outline"><i data-lucide="send"></i> Contact Me</a>
+      <a href="#projects" class="btn btn-outline"><i data-lucide="folder-kanban"></i> View Projects</a>
+    </div>
+  </div>
+  <div class="hero-image">
+    <div class="float-badge badge-1"><i data-lucide="bug" style="color:var(--pink)"></i> 500+ Test Cases Executed</div>
+    <div class="avatar-entrance" id="avatarEntrance">
+      <div class="avatar-glow"></div>
+      <div class="avatar-ring">
+        <div class="inner"><img src="assets/images/profile.png" alt="Preethi K"></div>
+      </div>
+    </div>
+    <div class="float-badge badge-2"><i data-lucide="check-check" style="color:#4ade80"></i> Playwright Automation</div>
+  </div>
+  <div class="scroll-cue"><span>SCROLL</span><div class="line"></div></div>
+</section>
+
+<!-- ABOUT -->
+<section class="section" id="about">
+  <div class="section-head reveal">
+    <div class="tag">Get To Know Me</div>
+    <h2>About Me</h2>
+  </div>
+  <div class="about-wrap reveal">
+    <div class="about-copy">
+      <p class="lead">Turning quality into a competitive advantage.</p>
+      <p>I am a Software Test Engineer with over two years of professional experience in Manual and Automation Testing. I specialize in validating Web, Mobile, FinTech, AI, E-Commerce, and Asset Management applications. I have hands-on experience in STLC, SDLC, Agile methodologies, Test Case Design, Defect Management, API Testing, SQL Validation, and Playwright Automation.</p>
+    </div>
+    <div class="about-stats-mini">
+      <div class="mini-stat glass"><b>3+</b><span>Years Experience</span></div>
+      <div class="mini-stat glass"><b>6+</b><span>Projects Delivered</span></div>
+      <div class="mini-stat glass"><b>STLC</b><span>& Agile Practitioner</span></div>
+      <div class="mini-stat glass"><b>100%</b><span>Quality Focused</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section class="section" id="skills">
+  <div class="section-head reveal">
+    <div class="tag">What I Bring</div>
+    <h2>Skills & Expertise</h2>
+    <p>A toolkit built across manual precision and automation speed.</p>
+  </div>
+  <div class="skills-grid reveal" id="skillsGrid"></div>
+</section>
+
+<!-- EXPERIENCE -->
+<section class="section" id="experience">
+  <div class="section-head reveal">
+    <div class="tag">Career Path</div>
+    <h2>Experience</h2>
+  </div>
+  <div class="timeline">
+    <div class="tl-item glass reveal">
+      <div class="tl-dot"></div>
+      <h3>XYLIUM GLOBAL SERVICES</h3>
+      <span class="period">July 2025 – Present</span>
+      <div class="tl-tags">
+        <span>FinTech Testing</span><span>Automation Testing</span><span>Playwright</span>
+        <span>Regression Testing</span><span>Role Based Access Validation</span><span>Dashboard Testing</span>
+        <span>Data Validation</span><span>JIRA</span><span>Report Validation</span>
+        <span>Case Management</span><span>Approval Workflow Testing</span>
+      </div>
+    </div>
+    <div class="tl-item glass reveal">
+      <div class="tl-dot"></div>
+      <h3>CI Global Technology</h3>
+      <span class="period">February 2023 – July 2025</span>
+      <div class="tl-tags">
+        <span>Requirement Analysis</span><span>Test Case Design</span><span>Functional Testing</span>
+        <span>Regression Testing</span><span>Smoke Testing</span><span>Integration Testing</span>
+        <span>Requirement Traceability Matrix</span><span>User Acceptance Testing</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section class="section" id="projects">
+  <div class="section-head reveal">
+    <div class="tag">Selected Work</div>
+    <h2>Projects</h2>
+  </div>
+  <div class="project-grid" id="projectGrid"></div>
+</section>
+
+<!-- TOOLS -->
+<section class="section" id="tools">
+  <div class="section-head reveal">
+    <div class="tag">Toolbox</div>
+    <h2>Tools & Technologies</h2>
+    <p>The stack and methodologies behind every release I help ship.</p>
+  </div>
+  <div class="tools-wrap reveal" id="toolsTrackA"></div>
+</section>
+
+<!-- TESTING EXPERTISE -->
+<section class="section" id="expertise">
+  <div class="section-head reveal">
+    <div class="tag">Core Strengths</div>
+    <h2>Testing Expertise</h2>
+    <p>Where I focus my attention across the testing lifecycle.</p>
+  </div>
+  <div class="expertise-grid" id="expertiseGrid"></div>
+</section>
+
+<!-- PROFESSIONAL HIGHLIGHTS -->
+<section class="section" id="achievements">
+  <div class="section-head reveal">
+    <div class="tag">Track Record</div>
+    <h2>Professional Highlights</h2>
+  </div>
+  <div class="achieve-grid" id="achieveGrid"></div>
+</section>
+
+<!-- TESTING PROCESS -->
+<section class="section" id="process">
+  <div class="section-head reveal">
+    <div class="tag">How I Work</div>
+    <h2>Testing Process</h2>
+    <p>A consistent, end-to-end approach to every release.</p>
+  </div>
+  <div class="process-track" id="processTrack"></div>
+</section>
+
+<!-- CONTACT -->
+<section class="section" id="contact">
+  <div class="section-head reveal">
+    <div class="tag">Let's Connect</div>
+    <h2>Get In Touch</h2>
+    <p>Have a project or role in mind? I'd love to hear from you.</p>
+  </div>
+  <div class="contact-wrap">
+    <div class="contact-info reveal">
+      <a class="c-item" href="tel:9789989789"><div class="ic"><i data-lucide="phone"></i></div><div><b>Phone</b><span>9789989789</span></div></a>
+      <a class="c-item" href="mailto:preethivairu05@gmail.com"><div class="ic"><i data-lucide="mail"></i></div><div><b>Email</b><span>preethivairu05@gmail.com</span></div></a>
+      <a class="c-item" href="https://www.google.com/maps/search/?api=1&query=Pallikaranai,+Chennai" target="_blank" rel="noopener"><div class="ic"><i data-lucide="map-pin"></i></div><div><b>Location</b><span>Pallikaranai, Chennai</span></div></a>
+      <div class="social-row">
+        <a href="https://www.linkedin.com/" target="_blank" rel="noopener" id="linkedinLink"><i data-lucide="linkedin"></i></a>
+        <a href="https://github.com/" target="_blank" rel="noopener" id="githubLink"><i data-lucide="github"></i></a>
+      </div>
+    </div>
+    <form class="contact-form glass reveal" id="contactForm">
+      <div class="form-row">
+        <div class="form-group"><label>Name</label><input type="text" required placeholder="Your name"></div>
+        <div class="form-group"><label>Email</label><input type="email" required placeholder="you@email.com"></div>
+      </div>
+      <div class="form-group" style="margin-bottom:18px;"><label>Subject</label><input type="text" required placeholder="Let's talk about..."></div>
+      <div class="form-group" style="margin-bottom:22px;"><label>Message</label><textarea required placeholder="Write your message..."></textarea></div>
+      <button type="submit" class="btn btn-primary send-btn"><i data-lucide="send"></i> Send Message</button>
+      <div class="form-status" id="formStatus">✓ Message sent — thank you! I'll get back to you soon.</div>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div>© 2025 Preethi K — Designed with ❤️</div>
+  <div class="f-social">
+    <a href="https://www.linkedin.com/" target="_blank" rel="noopener"><i data-lucide="linkedin"></i></a>
+    <a href="https://github.com/" target="_blank" rel="noopener"><i data-lucide="github"></i></a>
+    <a href="mailto:preethivairu05@gmail.com"><i data-lucide="mail"></i></a>
+  </div>
+</footer>
+
+
+<script src="script.js"></script>
+</body>
+</html>
