@@ -250,7 +250,7 @@ skills.forEach(s=>{
 const projects=[
   {name:"Yellowstone",tag:"Asset Management",icon:"warehouse",tags:["POS","Inventory","Hotel Management","Employee Scheduling","Azure DevOps"]},
   {name:"RubiCube",tag:"AI Analytics Platform",icon:"brain-circuit",tags:["Predictive Analytics","Data Warehouse","ETL Validation","Business Intelligence"]},
-  {name:"Metaproteins",tag:"E-commerce Platform",icon:"shopping-cart",tags:["Android","iOS","Tablet Testing","JIRA"]},
+  {name:"Meatproteins",tag:"E-commerce Platform as supply chain Domain",icon:"shopping-cart",tags:["Android","iOS","Tablet Testing","JIRA"]},
   {name:"Statfin",tag:"FinTech",icon:"landmark",tags:["CPV","RCU","Role Based Access","Workflow Testing"]},
   {name:"PayIn",tag:"Payment Collection",icon:"credit-card",tags:["Dashboard","Reports","Analytics"]},
   {name:"Apex",tag:"EdTech",icon:"graduation-cap",tags:["Education Loan","Institute Portal","Admin Module"]},
